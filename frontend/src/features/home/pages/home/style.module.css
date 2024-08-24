@@ -1,0 +1,50 @@
+.homeContainer {
+  background-color: #f2f7ee;
+  position: relative;
+  width: 100%;
+  min-height: 1000px;
+}
+
+/* Category */
+
+.categoryContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  margin: 5% 0%;
+  margin-top: 10%;
+  background-color: #76cf9a;
+  border-radius: 20px;
+}
+.categoryContainer div h2 {
+  text-align: start;
+  color: white;
+  margin: 2%;
+  margin-top: 10%;
+}
+
+/* product sliders */
+.specificProductsContainer {
+  margin: 10% 0;
+  width: 100%;
+  height: 100%;
+}
+.productSliderContainer {
+  width: 100%;
+  height: 50%;
+  margin: 15% 0;
+
+}
+
+/* Story */
+
+.storyContainer {
+  min-height: auto;
+  background-color: #59a378;
+}
+.storyContainer div h3 {
+  text-align: start;
+  margin-left: 2%;
+  color: #f2f7ee;
+}

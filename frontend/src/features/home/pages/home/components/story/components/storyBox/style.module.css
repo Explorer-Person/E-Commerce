@@ -1,0 +1,66 @@
+
+/* Styling enhancements for story boxes */
+.storyBox {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Adding rows for better layout */
+    width: 99%;
+    height: auto;
+    padding: 1%; /* Reduced padding for a more compact look */
+    margin: 1% 1%; /* Reduced margin for better spacing */
+    border-radius: 10px; /* Adding rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+    background-color: #fff; /* Setting background color */
+}
+
+/* Styling for story titles */
+.storyTitle {
+    background-color: #30a86a;
+    border: 1px solid #07B970;
+    text-align: center;
+    padding: 1%; /* Adjusted padding for better appearance */
+    border-radius: 10px 10px 0 0; /* Rounded corners only at the top */
+    color: white; /* Adjusted text color for better contrast */
+}
+
+/* Styling for story images */
+.storyImage {
+    width: 100%;
+    height: auto; /* Adjusted height for better consistency */
+    object-fit:cover; /* Ensuring images cover the entire area */
+    border-radius: 0 0 10px 10px; /* Rounded corners only at the bottom */
+}
+
+.storyImage img {
+    border: 2px solid #F2F7EE;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 10px 10px; /* Rounded corners only at the bottom */
+}
+
+/* Styling for story details */
+.storyDetail {
+    background-color: #F2F7EE;
+    padding: 1%; /* Adjusted padding for better appearance */
+    border-radius: 0 0 10px 10px; /* Rounded corners only at the bottom */
+}
+
+.storyDetail p {
+    margin: 1% 0; /* Adjusted margin for better spacing */
+}
+
+/* Styling for read more button */
+.storyDetail button {
+    display: block; /* Ensure button is block-level */
+    margin: 1% auto; /* Centering the button */
+    padding: 0.5% 1%; /* Adjusted padding for better appearance */
+    background-color: #07B970;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.storyDetail button:hover {
+    background-color: #155132; /* Darken button color on hover */
+}

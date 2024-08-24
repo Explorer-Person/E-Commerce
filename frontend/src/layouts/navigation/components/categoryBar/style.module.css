@@ -1,0 +1,38 @@
+.categoryBar{
+    margin-top: 0.5%;
+    position: fixed;
+    width: 15%;
+    height: auto;
+    z-index: 500;
+    background-color: white;
+    color: #046a40;
+    border-radius: 5px;
+}
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #83b4a0 ;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.category:hover{
+    background-color: #07B970;
+    color: rgb(253, 253, 253);
+}
+.category p{
+    margin-top: 3%;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    width: 80%;
+}
+.category img{
+    padding: 2%;
+    width: 20%;
+}
+.category:hover img{
+    border: 2px solid aliceblue ;
+}

@@ -1,0 +1,33 @@
+.supportButton {
+    width: 20%;
+    position: fixed; /* Changed to fixed for sticking at the bottom */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 75%;
+    bottom: 10%;
+    background-color: white;
+    color: rgb(17, 101, 77);
+    border: 2px solid #00ff88; /* Changed border color */
+    border-radius: 50px; /* Changed border radius */
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    transition: transform 0.3s ease; /* Added transition for smooth effect */
+    z-index: 500;
+}
+
+.supportButton:hover {
+    transform: scale(1.05); /* Added hover effect */
+}
+
+.buttonImg {
+    width: 50%; /* Adjusted width */
+}
+
+.buttonImg img {
+    width: 100%;
+}
+
+.buttonText {
+    margin-left: 10px; /* Added margin between image and text */
+}

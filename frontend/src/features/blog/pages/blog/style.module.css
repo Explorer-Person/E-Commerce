@@ -1,0 +1,72 @@
+.blogPage {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Adjusted grid columns for image and content */
+    gap: 20px; /* Added gap between grid items */
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 2% 10%;
+}
+
+.blogImage {
+    grid-column: 1; /* Set image to start at column 1 */
+    grid-row: 1 / 3; /* Span 2 rows */
+    width: 100%; /* Adjusted width for the image */
+}
+
+.blogImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.blogContent {
+    grid-column: 2; /* Set content to start at column 2 */
+    grid-row: 1; /* Set content to start at row 1 */
+}
+
+.blogTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blogMeta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.blogDate,
+.blogViews {
+    font-size: 14px;
+    color: #888;
+}
+
+.blogText {
+    grid-column: 1 / -1; /* Span across all columns */
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.likeButton,
+.backButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.likeButton {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.backButton {
+    background-color: #dc3545;
+    color: #fff;
+}

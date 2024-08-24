@@ -1,0 +1,13 @@
+.paymentPage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 5% 2.5%;
+}
+.processesContainer {
+  width: 70%;
+}
+.paymentInfoContainer {
+  width: 25%;
+  padding-top: 1%;
+}

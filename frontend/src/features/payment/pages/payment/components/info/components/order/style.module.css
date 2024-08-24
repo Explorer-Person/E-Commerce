@@ -1,0 +1,79 @@
+/* Order Info */
+
+.orderInfoBox {
+  padding: 2% 2%;
+  width: 95%;
+  height: auto;
+}
+.paymentInfo,
+.orderProductInfo {
+  margin: 1%;
+  padding: 2%;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 10px;
+}
+.profileInfo {
+  display: flex;
+  width: 100%;
+}
+.addressInfo,
+.userInfo {
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  margin: 1%;
+}
+.addressInfo {
+  width: 50%;
+  padding: 2%;
+}
+.addressInfo div {
+  display: flex;
+  gap: 5%;
+}
+.addressInfo div div {
+  display: flex;
+  gap: 5%;
+}
+.userInfo {
+  width: 50%;
+  padding: 2%;
+}
+.userInfo div {
+  display: flex;
+  gap: 5%;
+}
+
+.orderProducts {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  padding-left: 5%;
+}
+.paymentInfo {
+  width: 98%;
+  padding: 2%;
+}
+
+.cardInfo {
+  display: flex;
+  gap: 25%;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.cardImage img {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.answer {
+  font-weight: 600;
+}

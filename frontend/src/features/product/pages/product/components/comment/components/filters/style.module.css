@@ -1,0 +1,39 @@
+.commentFilter {
+  width: 35%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.commentFilter select {
+  width: 50%;
+  padding: 1% 0;
+  border-radius: 5px;
+  border-color: #3a4b40;
+}
+.filterComment {
+  display: flex;
+  width: 100%;
+  margin: 2% 2%;
+  height: auto;
+  padding: 1%;
+}
+.commentSearch {
+  width: 50%;
+  margin: 0 5%;
+  border-radius: 5px;
+}
+.commentSearch input {
+  width: 80%;
+  border-radius: 5px;
+  padding: 0.5% 0;
+  border-color: #3a4b40;
+}
+.commentSearch button {
+  width: 20%;
+  border-radius: 5px;
+  padding: 0.5% 0;
+  background-color: #3a4b40;
+  border-color: #3a4b40;
+  color: #ffffff;
+  font-weight: 500;
+}

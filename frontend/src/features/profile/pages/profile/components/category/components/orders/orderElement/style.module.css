@@ -1,0 +1,142 @@
+/* Order */
+
+.orderBoxItem {
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin: 2% 0;
+}
+
+.orderBox:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.orderBoxImg {
+  flex: 0 0 10%;
+  margin-right: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 1% 1%;
+}
+
+.orderBoxItem img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.orderItemInfos {
+  flex: 1;
+  display: flex;
+  gap: 5%;
+}
+.orderItemInfos div {
+  margin: 0 2%;
+}
+
+.orderNumber,
+.orderDate {
+  margin-bottom: 10px;
+}
+
+.orderDetails,
+.orderStatus {
+  margin: 0 10%;
+}
+
+.orderStatus div {
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.orderStatus .completed {
+  background-color: #4caf50; /* Green color for completed status */
+}
+
+.orderStatus .processing {
+  background-color: #ff9800; /* Orange color for processing status */
+}
+
+.orderItemDetails {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+}
+
+.orderItemDetails > div {
+  width: calc(
+    50% - 5%
+  ); /* Adjusted width to create a two-column layout with a gap */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.orderItemDetails div {
+  margin: 1% 1%;
+}
+
+.orderProduct {
+  display: flex;
+  align-items: center;
+}
+
+.orderProduct img {
+  width: 35%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.orderProductDetails {
+  flex: 1;
+}
+
+.orderProductDetails h5 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.orderProductDetails h6 {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.orderProcesses h5,
+.orderAddress h5,
+.orderPayment h5 {
+  margin: 0 0 10px;
+}
+
+.orderProcesses hr,
+.orderAddress hr,
+.orderPayment hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.orderPaymentInfos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderPaymentInfos > div {
+  flex: 1;
+}
+
+.orderPaymentInfos h6 {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #666;
+}

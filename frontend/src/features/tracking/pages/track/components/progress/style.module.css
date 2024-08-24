@@ -1,0 +1,29 @@
+/* Progress Box */
+.progressBox {
+  width: 100%;
+}
+
+.lineBoxes {
+  width: 80%;
+  display: flex;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  position: relative; /* Add position relative to position location dots */
+}
+
+.lineBox {
+  width: 33.3%;
+  height: 100%;
+  display: flex; /* Center location dot vertically */
+  justify-content: end; /* Center location dot horizontally */
+  align-items: center; /* Center location dot vertically */
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.locationDot {
+  font-size: xxx-large;
+  margin-bottom: 55px;
+  color: black;
+}

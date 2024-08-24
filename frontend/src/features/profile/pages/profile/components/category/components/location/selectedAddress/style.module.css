@@ -1,0 +1,31 @@
+.addressBox {
+    margin-bottom: 2%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 1 0 calc(33.33% - 20px); /* Three boxes per row */
+  }
+  
+  .addressBox h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .addressBox p {
+    margin: 5px 0;
+  }
+  .addressButtons{
+    display: flex;
+  }
+  
+.flexContainer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3%;
+}  
+
+.titleBox{
+  display: flex;
+  gap: 75%;
+}

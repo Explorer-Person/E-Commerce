@@ -1,0 +1,59 @@
+.addressBox {
+    margin-bottom: 2%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 1 0 calc(45.33% - 20px); /* Three boxes per row */
+  }
+  
+  .addressBox h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .addressBox p {
+    margin: 5px 0;
+  }
+  .addressButtons{
+    display: flex;
+  }
+  
+.flexContainer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3%;
+}  
+
+.titleBox{
+  display: flex;
+  gap: 75%;
+}
+.selectionBox{
+  position: relative;
+  right: 10%;
+}
+.selectButton{
+  width: 20px;
+  height: 20px;
+}
+.symbol{
+  position: relative;
+  background-color: #005CC8;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 1px 2px;
+  border-radius: 5px;
+  right: 38%;
+  border: 1px solid white
+}
+
+.key {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.value {
+  font-weight: normal;
+  font-style: normal;
+}

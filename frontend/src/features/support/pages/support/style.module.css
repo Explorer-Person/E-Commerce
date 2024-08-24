@@ -1,0 +1,120 @@
+.supportBox {
+    width: 90%;
+    margin: 5% auto; /* Center the box */
+    background-color: #fff; /* Added background color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.boxTitle {
+    display: flex;
+    justify-content: space-between; /* Spread items */
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Added border bottom */
+}
+
+.boxTitle h2 {
+    font-size: 24px; /* Increased font size */
+    margin: 0; /* Remove margin */
+}
+
+.boxTitle div {
+    padding: 10px 20px; /* Added padding */
+    cursor: pointer;
+    text-decoration: none; /* Removed underline */
+    border: 2px solid transparent; /* Transparent border */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Added transition */
+}
+
+.boxTitle div:hover {
+    background-color: #f2f2f2; /* Light background on hover */
+}
+
+.boxContent {
+    padding: 20px;
+}
+
+.askableQuestions {
+    display: flex;
+    flex-wrap: nowrap; /* Allow questions to wrap */
+    margin-bottom: 1%;
+    justify-content: center;
+    gap: 20px; /* Increased gap between questions */
+}
+
+.question {
+    width: calc(33.33% - 20px); /* Adjusted width */
+    text-align: center;
+    font-size: 18px; /* Changed font size */
+    font-weight: bold; /* Increased font weight */
+    color: #4caf50; /* Changed color to green */
+    background-color: #e7f7e4; /* Light green background */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #4caf50; /* Green border */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added transition for hover effect */
+}
+
+.question:hover {
+    background-color: #d4edda; /* Darker green on hover */
+}
+
+/* Styles for the chatbox */
+.chatBox {
+    width: 80%;
+    height: auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    overflow-y: auto;
+    padding: 20px;
+    margin: 1% 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the chat messages */
+.chatMessage {
+    width: 25%;
+    background-color: #a5d6a7;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: auto; /* Justify to end */
+}
+
+/* Style for the user's messages */
+.userMessage {
+    width: 25%;
+    background-color: #90caf9;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+
+.messageInput {
+    display: flex;
+    justify-content: space-between; /* Spread items */
+    align-items: center;
+    padding: 5px;
+    background-color: #fff; /* Added background color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.messageInput input {
+    flex: 1; /* Take remaining space */
+    padding: 10px;
+    font-size: 16px; /* Reduced font size */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    outline: none;
+}
+
+
+

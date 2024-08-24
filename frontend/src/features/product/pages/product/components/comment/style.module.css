@@ -1,0 +1,37 @@
+.commentBox {
+  width: 100%;
+}
+.commentContainer {
+  width: 100%;
+  height: auto;
+  /* border: 2px solid black; */
+}
+.commentBox {
+  width: 100%;
+  height: 100%;
+}
+.boxTitle {
+  text-align: center;
+  color: white;
+}
+.boxTitle h3 {
+  background-color: #07b970;
+  margin: 1% 40%;
+  padding: 1% 0;
+  border-radius: 15px;
+}
+.boxContent {
+  width: 90%;
+  height: 100%;
+  /* border: 1px solid black; */
+  margin: 2% 5%;
+}
+
+
+
+
+.customerComments {
+  width: 100%;
+  height: 50%;
+  padding: 3% 10%;
+}

@@ -1,0 +1,31 @@
+/* Star Rating Component */
+.ratingChartBox{
+    position: relative;
+    right: 35%;
+    bottom: 8%;
+  }
+  
+  .ratingChart{
+    width: 100%;
+    display: flex;
+  }
+  
+  .starTag{
+    display: flex;
+    width: 20%;
+  }
+  .progressChart{
+    width: 80%;
+    border: 1px solid black;
+    height: 8px;
+    margin-top: 3%;
+    border-radius: 10px;
+  }
+  .progressChart div{
+    height: 8px;
+    border-radius: 10px;
+    background-color: #3A4B40;
+  }
+  .ratingCount{
+    margin: 0 5%;
+  }

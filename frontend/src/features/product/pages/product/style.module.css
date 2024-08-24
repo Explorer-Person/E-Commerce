@@ -1,0 +1,41 @@
+.productContainers {
+  margin: 5% 0;
+}
+.productContainer {
+  margin-bottom: 5%;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+.imgContainer {
+  width: 100%;
+  height: 750px;
+  grid-column: 1;
+  grid-row: 1;
+  padding: 5%;
+}
+
+.infoContainer {
+  width: 100%;
+  height: 100%;
+  grid-column: 2;
+  grid-row: 1;
+  /* border: 1px solid black; */
+}
+
+.commentContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  /* border: 1px solid black; */
+}
+
+.similarProductsContainer {
+  width: 100%;
+  min-height: auto;
+  margin: 25% 0;
+}

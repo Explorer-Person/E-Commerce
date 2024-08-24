@@ -1,0 +1,24 @@
+.confirmBox{
+    position: fixed;
+    width: 30%;
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: -1px -1px 5px dimgray, 1px 1px 5px dimgray;
+    height: 250px;
+    left: 35%;
+    top: 45%;
+    animation: sliding 0.5s;
+    z-index: 500;
+}
+@keyframes sliding{
+    0%{
+       transform: translateY(-100%);
+    }
+    100%{
+       transform: translateY(0);
+    }
+}
+.confirmButton{
+    position: relative;
+    left: 36.5%;
+}

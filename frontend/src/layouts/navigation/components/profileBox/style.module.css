@@ -1,0 +1,119 @@
+/* Profile Box */
+
+.profileBoxContainer {
+  position: relative;
+  width: 33%;
+  margin-left: 55%;
+}
+
+.profileBox {
+  display: flex;
+  align-items: center;
+  background-color: #07b970;
+  border-radius: 10px;
+  padding: 1% 5%;
+}
+
+.profilePicture {
+  width: 20%;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.profilePicture:hover{
+  border: 2px solid rgb(9, 94, 10);
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileName {
+  font-weight: bold;
+  color: white;
+}
+
+.profileEmail {
+  color: white;
+}
+
+.cartButton {
+  margin-right: 10px; /* Adjust margin */
+}
+
+.cartButton button {
+  color: white;
+  background-color: transparent; /* Transparent background */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+
+.cartButton button:hover {
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.1s;
+  color: #05a464; /* Hover color */
+}
+
+.cartButton button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.dropdownButton {
+  margin-left: 5%;
+}
+.dropdownButton button {
+  border: none;
+  color: #05a464;
+}
+.dropdownItems {
+  position: fixed;
+  top: 12%;
+  width: 7%;
+  height: auto;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #05a464;
+  z-index: 400;
+}
+.dropdownItems div {
+  cursor: pointer;
+  text-align: center;
+  color: #035f3a;
+  padding: 10% 10%;
+  transition: 0.2s;
+  border-bottom: 1px solid #05a464;
+}
+.dropdownItems div:hover {
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background-color: #07b970;
+  transition: 0.2s;
+  padding: 10% 10%;
+  border-bottom: 1px solid #05a464;
+}
+
+
+.linkBox {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #07b970;
+  color: #e3ffe3;
+  border-radius: 10px;
+  padding: 0.5% 3%;
+  gap: 14%;
+  cursor: pointer;
+  font-size: larger;
+  margin-left: 25%;
+}
+.linkBox h6:hover{
+  text-decoration: underline;
+}

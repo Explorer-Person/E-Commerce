@@ -1,0 +1,28 @@
+.filtersBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filtersBox input[type="text"],
+.filtersBox select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.filtersBox input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.filtersBox select {
+  width: 150px;
+  margin-left: 10px;
+}

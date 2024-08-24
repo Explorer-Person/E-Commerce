@@ -1,0 +1,34 @@
+.errorPage{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.errorPage div{
+    width: 50%;
+}
+.errorDetail{
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 0 10%;
+    text-align: center;
+}
+.errorDetail h1 {
+    color: #009682;
+    font-weight: 900;
+    font-size: xxx-large;
+}
+.errorDetail h2{
+    font-size: x-large;
+    font-weight: 600;
+
+}
+.errorDetail p {
+    font-size: larger;
+    font-weight: 600;
+}
+.errorImg img{
+   margin-top: 5%;
+   position: relative;
+   width: 50%;
+
+}

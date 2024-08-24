@@ -1,0 +1,72 @@
+.commentResults {
+  margin: 0 20%;
+  padding: 2%;
+  width: 60%;
+  height: 20%;
+  display: grid;
+  gap: 5%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+.commentedProduct {
+  margin: 1%;
+  grid-row: 1;
+  grid-column: 1 / span 2;
+}
+.commentCount {
+  position: relative;
+  margin: 1%;
+  right: 30%;
+  grid-row: 1;
+  grid-column: 3;
+}
+.commentProductImg {
+  margin: 1%;
+  width: 75%;
+  height: 80%;
+  grid-row: 2;
+  grid-column: 1;
+}
+.commentProductImg img {
+  border-radius: 10px;
+  /* border: 3px solid black; */
+  width: 100%;
+  height: 100%;
+}
+.totalPoint {
+  position: relative;
+  right: 30%;
+  grid-row: 2;
+  grid-column: 2;
+}
+.starPoints {
+  margin-top: 10%;
+  grid-row: 2;
+  grid-column: 3;
+}
+.evaluateButtons {
+  position: relative;
+  bottom: 30%;
+  grid-row: 3;
+  grid-column: 2 / span 3;
+}
+.evaluateButtons button {
+  position: relative;
+  right: 15%;
+}
+.evaluateButtons button:first-child {
+  border-radius: 10px;
+  border-color: #155132;
+  background-color: #155132;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 0.5% 3%;
+}
+.evaluateButtons button:last-child {
+  border-radius: 10px;
+  background-color: #07b970;
+  border-color: #07b970;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 0.5% 3%;
+}

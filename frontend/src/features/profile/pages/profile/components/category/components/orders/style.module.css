@@ -1,0 +1,14 @@
+.orderBox {
+  width: 80%;
+  margin: 5% 10%;
+  padding: 2% 5%;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.orderBox h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}

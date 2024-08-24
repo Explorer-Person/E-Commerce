@@ -1,0 +1,128 @@
+.filterBox {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filterBox h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.filterBox label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.filterBox input[type="text"],
+.filterBox input[type="number"],
+.filterBox select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.filterBox .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filterBox .d-flex input[type="number"] {
+  width: 48%;
+}
+
+.filterBox .d-flex select {
+  width: 48%;
+}
+
+/* Weight filter */
+.weightFilter {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.weightFilter label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.weightFilter select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+  padding: 4% 2%;
+  appearance: none; /* Native stilini kaldırır */
+}
+.weightFilter select option{
+  padding: 10px;
+  padding: inherit;
+}
+
+.weightFilter select:hover {
+  border-color: #999;
+}
+
+
+
+/* Category Filter */
+
+
+.categories {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.categories label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categories ul li {
+  display: flex; /* Use flexbox to align checkbox and label horizontally */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 10px; /* Increased margin for better spacing */
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 10px;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+
+.categories ul li:hover {
+  background-color: #e0e0e0;
+}
+
+.categories ul li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.categories ul li label {
+  flex-grow: 1; /* Allow label to grow to fill available space */
+  white-space: nowrap; /* Prevent label from wrapping */
+  overflow: hidden; /* Hide overflowed text */
+  text-overflow: ellipsis; /* Show ellipsis for overflowed text */
+}

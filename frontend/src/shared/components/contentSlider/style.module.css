@@ -1,0 +1,48 @@
+/* Content Slider */
+.sliderBoxes{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parentBoxSlider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    overflow-x: none;
+    z-index: 100;
+}
+
+.elementSlider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    gap:4%;
+    padding: 0 2%;
+    justify-content: center;
+    display: flex;
+    align-items: center ;
+}
+
+.arrows{
+    font-size:10ch;
+    width: 5%;
+    height: auto;
+    padding-top: 0;
+    text-align: center;
+    cursor: pointer;
+    z-index: 250;
+    position: relative;
+    color: #475C2D;
+}
+.leftArrow{
+   left: 0;
+}
+.rightArrow{
+   right: 0;
+}

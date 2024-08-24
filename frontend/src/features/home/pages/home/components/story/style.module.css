@@ -1,0 +1,22 @@
+
+
+.storyComponent{
+    height: 100%;
+    width: 100%;
+}
+.storyBoxes {
+    position: relative;
+    display: flex;
+    width: 100%;
+    z-index: 50;
+    justify-content: center;
+    align-items: center;
+}
+.focalElement{
+    width: 62%;
+    
+}
+.sideElements{
+    width: 50%;
+    margin: 5% 0;
+}

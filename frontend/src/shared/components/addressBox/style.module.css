@@ -1,0 +1,133 @@
+/* Updated styles for Address Page */
+
+/* Common styles for input fields, select fields, and textarea fields */
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.inputField,
+.selectField,
+.textareaField {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  font-size: 16px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.inputField:focus,
+.selectField:focus,
+.textareaField:focus {
+  outline: none;
+  border-color: #6e54a3;
+}
+
+.selectField {
+  position: relative;
+}
+
+.selectField::after {
+  content: '\25BC';
+  font-size: 12px;
+  color: #999;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.selectField select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: calc(100% - 30px);
+  padding-right: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.textareaField {
+  height: 100px;
+  resize: none;
+}
+
+/* Styles specific to the address input form */
+.addressBox {
+  width: 90%;
+  padding: 2% 5%;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin: 0 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.addressBox h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.addressInputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.inputGroup {
+  flex: 0 1 calc(50% - 10px);
+}
+
+.inputGroup.full {
+  flex-basis: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .inputGroup {
+      flex: 0 1 100%;
+  }
+}
+
+/* Additional styles specific to the Save Address button */
+.saveButton {
+  margin-top: 10%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.saveButton:hover {
+  background-color: #0056b3;
+}
+
+/* Loader */
+
+.loader {
+  border: 32px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 32px solid #3498db;
+  width: 250px;
+  height: 250px;
+  margin: 5%;
+  margin-left: 30%;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

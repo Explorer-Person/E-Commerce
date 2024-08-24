@@ -1,0 +1,11 @@
+.allProducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10%; /* Adjust gap between items */
+    padding: 5%;
+  }
+
+  .allProducts > *{
+    margin-bottom: 8%;
+  }

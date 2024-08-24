@@ -1,0 +1,36 @@
+.mostFaved{
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+}
+.title{
+    margin-top: 10%;
+    padding: 0.5% 2%;
+    background-color: #59A378;
+    color: white;
+    height: 10%;
+    width: 100%;
+}
+.contentSlider{
+    margin-top: 10%;
+    height: 90%;
+    width: 100%;
+}
+.mostFavedSlider{
+    position: absolute;
+    left: 0%;
+    display: flex;
+    width: 200%;
+    transition: 1s;
+    z-index: 50;
+}
+.elementSlider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    gap:4%;
+    padding: 0 2%;
+    justify-content: center;
+    display: flex;
+    align-items: center ;
+}
